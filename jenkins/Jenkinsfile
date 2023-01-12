@@ -7,5 +7,10 @@ pipeline {
                 pwd
             }
         }
+        stage("Make the poll work") {
+            steps {
+                echo 'This should show up!'
+            }
+        }
     }
 }
