@@ -4,6 +4,7 @@ pipeline {
         stage('Beta') {
             steps {
                 echo 'hello'
+                sh 'pwd'
             }
         }
     }
