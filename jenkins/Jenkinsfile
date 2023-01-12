@@ -1,10 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('Beta') {
+        stage('Testing Docker Capabilities') {
             steps {
-                echo 'hello'
-                echo 'this is something that is pretty cool'
+                sh 'docker container ls'
             }
         }
     }
