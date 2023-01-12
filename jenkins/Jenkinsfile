@@ -1,15 +1,9 @@
 pipeline {
-    agents any
+    agent any
     stages {
-        stage("Test") {
+        stage('Beta') {
             steps {
-                echo 'Hello from jenkins'
-                pwd
-            }
-        }
-        stage("Make the poll work") {
-            steps {
-                echo 'This should show up!'
+                echo 'hello'
             }
         }
     }
