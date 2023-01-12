@@ -4,7 +4,7 @@ pipeline {
         stage('Beta') {
             steps {
                 echo 'hello'
-                sh 'pwd'
+                sh 'ssh panchothecool@192.168.1.141'
             }
         }
     }
