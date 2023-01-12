@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('Testing Docker Capabilities') {
             steps {
-                sh 'docker container ls'
+                echo 'this is pretty cool!'
+                echo 'look at this jenkins job!'
             }
         }
     }
